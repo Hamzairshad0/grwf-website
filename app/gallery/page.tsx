@@ -1,0 +1,3 @@
+import {Shell,Gallery} from '@/components/grwf';
+export const metadata={title:'Our community'};
+export default function Community(){return <Shell><main id="main"><section className="page-intro wrap"><p className="eyebrow">Our community / Real moments</p><h1>Every picture.<br/><em>A little purpose.</em></h1><p>Care, learning and community through the foundation’s own lens. Select a photograph to take a closer look.</p></section><section className="section wrap gallery-page"><Gallery full/><p className="source-line">Photographs from <a href="https://grwf.org/gallery/" target="_blank" rel="noreferrer">GRWF’s official gallery ↗</a>. Captions describe the photographed activity.</p></section></main></Shell>}

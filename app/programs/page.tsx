@@ -1,0 +1,3 @@
+import {Shell,ProgramExplorer} from '@/components/grwf';
+export const metadata={title:'Our programs'};
+export default function Programs(){return <Shell><main id="main"><section className="page-intro wrap"><p className="eyebrow">Our work / Care in many forms</p><h1>Find a path.<br/><em>Find possibility.</em></h1><p>Explore healthcare, education, welfare and skills. Search for a service or choose the area that matters to you.</p></section><section className="wrap section program-page"><ProgramExplorer all/></section><section className="wrap service-help"><h2>Not sure where to start?</h2><p>Call the foundation for guidance on current services and support.</p><a className="button green" href="tel:+923111555959">03-111-555-959 ↗</a></section></main></Shell>}
